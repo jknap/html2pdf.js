@@ -1,7 +1,7 @@
 {
-  "name": "html2pdf.js",
+  "name": "html2pdf-pro",
   "version": "0.10.3",
-  "description": "Client-side HTML-to-PDF rendering using pure JS",
+  "description": "A fork of html2pdf.js with html2canvas-pro support",
   "main": "dist/html2pdf.js",
   "files": [
     "/src",
@@ -27,7 +27,7 @@
   "homepage": "https://ekoopmans.github.io/html2pdf.js/",
   "dependencies": {
     "es6-promise": "^4.2.5",
-    "html2canvas": "^1.0.0",
+    "html2canvas-pro": "^1.5.11",
     "jspdf": "^3.0.0"
   },
   "devDependencies": {
